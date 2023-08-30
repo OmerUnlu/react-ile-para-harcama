@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#eee;
+}
+
+.header{
+  height: 10%;
+  background-color: brown;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+}
+.header h2{
+ margin-top: 15px;
+}
+.containerr{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+}
+.products{
+ height: 350px;
+ width: 300px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+background-color: white;
+}
+.picture img{
+  height: 200px;
+  width: 250px;
+}
+h5{
+  font-size: larger;
+}
+.content{margin-top: 5px; margin-bottom: 15px;}
+.content p {
+  font-size: larger;
+}
+.picture{text-align: center;}
+
+.productFoot{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: 1px rgb(177, 171, 171) solid;
+}
+.productFoot button{
+  padding: 5px 10px;
+  width: 100px;
+  font-size: medium;
+  font-weight: 700;
+}
+.productFoot input{
+  border: none;
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+  width: 100px;
+  
+}
+#sat{
+  font-size: 15px;
+  border: none;
+  background-color: rgb(221, 212, 212); 
+  cursor: pointer;
+}
+#satınAl{
+  border: none;
+  background-color: aqua;
+  font-size: 15px;
+  cursor: pointer;
+}
+span{
+  color: darkgreen;
+  font-size: large;
+  font-weight: 600;
+}
